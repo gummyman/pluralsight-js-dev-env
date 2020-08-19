@@ -2,6 +2,13 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
+    <script>
+      window.TrackJS && TrackJS.install({
+      token: "ae63bf031ead4244acab5655f436346b"
+      // for more configuration options, see https://docs.trackjs.com
+      });
+    </script>
   </head>
   <body>
     <h1>Users</h1>
@@ -16,6 +23,5 @@
       <tbody id="users">
       </tbody>
     </table>
-    <script src="bundle.js"></script>
   </body>
 </html>
